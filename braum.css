@@ -4,11 +4,18 @@
     left: 40%;
 }
 
+/*
+.character {
+    transform: skewY(10deg);
+}
+*/
+
+/* HEAD */
 .head {
     position: relative;
     width: 4em;
     height: 5em;
-    background-color: lightblue;
+    background-color: #9873F9;
     border-radius: 2em 2em 2em 2em;
 }
 
@@ -126,4 +133,224 @@
     bottom: .75em;
     left: 1.5em;
     background-color: white;
+}
+
+/* NECK */
+.neck {
+    position: absolute;
+    background-color: #9873F9;
+    width: 4em;
+    height: 2em;
+    left: 0;
+    top: 4.5em;
+    border-radius: 1em 1em 0 0;
+}
+
+/* BODY */
+.body {
+    position: absolute;
+    width: 10em;
+    height: 15em;
+    background-color: #9873F9;
+    left: -3em;
+    border-radius: 2em 2em 0 0;
+}
+
+.arm-left {
+
+}
+
+.torso {
+    position: absolute;
+    width: 10em;
+    height: 15em;
+    left: 0;
+}
+
+/* BELT */
+.belt-left {
+    width: 1.5em;
+    height: 2em;
+    position: absolute;
+    left: 0;
+    bottom: 3em;
+    background-color: gold;
+}
+
+.belt {
+    position: absolute;
+    width: 7em;
+    height: 7em;
+    bottom: 0;
+    left: 1em;
+
+    background-color: darkblue;
+    border: .5em solid gold;
+    border-radius: 5em;
+}
+
+.belt-right {
+    width: 1.5em;
+    height: 2em;
+    position: absolute;
+    right: 0;
+    bottom: 3em;
+    background-color: gold;
+}
+
+.belt-horn-lower-left {
+    position: absolute;
+    width: 2em;
+    height: 2.5em;
+    top: 1.8em;
+    left: .63em;
+    border-left: 1em solid aliceblue;
+    border-top: 1em solid aliceblue;
+    border-radius: 50%;
+}
+
+.belt-horn-upper-left {
+    position: absolute;
+    width: 1.4em;
+    height: 1em;
+    top: 1.9em;
+    left: 1.7em;
+    transform: rotate(190deg);
+    background-color: aliceblue;
+}
+
+.belt-horn-middle-upper {
+    position: absolute;
+    width: 1em;
+    height: 2em;
+    top: 2em;
+    left: 3em;
+    background-color: aliceblue;
+}
+
+.belt-horn-middle-lower {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: .5em solid transparent;
+    border-right: .5em solid transparent;
+    border-top: 1em solid aliceblue;
+    left: 3em;
+    top: 4em;
+}
+
+.belt-horn-upper-right {
+    position: absolute;
+    width: 1.4em;
+    height: 1em;
+    top: 1.9em;
+    right: 1.7em;
+    transform: rotate(-10deg);
+    background-color: aliceblue;
+}
+
+.belt-horn-lower-right {
+    position: absolute;
+    width: 2em;
+    height: 2.5em;
+    top: 1.8em;
+    right: .63em;
+    border-right: 1em solid aliceblue;
+    border-top: 1em solid aliceblue;
+    border-radius: 50%;
+}
+
+/* RIGHT ARM */
+.arm-right {
+
+}
+
+.arm-bands {
+
+}
+
+.band-1 {
+
+}
+
+.band-2 {
+
+}
+
+.hand-right {
+
+}
+
+.thumb-right {
+
+}
+
+.index-right {
+
+}
+
+.middle-right {
+
+}
+
+.ring-right {
+
+}
+
+.pinky-right {
+
+}
+
+/* SHIELD */
+.shield {
+    position: absolute;
+    top: 5em;
+    left: -20em;
+    width: 16em;
+    height: 20em;
+    background-color: blue;
+}
+
+.shield-horn-curl-left {
+
+}
+
+.shield-horn-lower-left {
+
+}
+
+.shield-horn-upper-left {
+
+}
+
+.shield-mid-upper {
+    position: absolute;
+    width: 10em;
+    height: 10em;
+    background-color: antiquewhite;
+    top: 3em;
+    left: 3em;
+}
+
+.shield-mid-lower {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 5em solid transparent;
+    border-right: 5em solid transparent;
+    border-top: 5em solid antiquewhite;
+    top: 13em;
+    left: 3em;
+}
+
+.shield-horn-upper-right {
+
+}
+
+.shield-horn-lower-right {
+
+}
+
+.shield-horn-curl-right {
+
 }
