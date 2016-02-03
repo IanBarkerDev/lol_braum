@@ -311,18 +311,6 @@
     background-color: blue;
 }
 
-.shield-horn-curl-left {
-
-}
-
-.shield-horn-lower-left {
-
-}
-
-.shield-horn-upper-left {
-
-}
-
 .shield-mid-upper {
     position: absolute;
     width: 10em;
@@ -343,14 +331,26 @@
     left: 3em;
 }
 
-.shield-horn-upper-right {
-
-}
-
-.shield-horn-lower-right {
-
+.shield-horn-curl-left {
+    position: absolute;
+    width: 4.5em;
+    height: 7em;
+    border-left: 1em solid black;
+    border-bottom: 2em solid black;
+    border-radius: 50%;
+    top: 2.5em;
+    left: -1em;
+    transform: rotate(30deg);
 }
 
 .shield-horn-curl-right {
-
+    position: absolute;
+    width: 4.5em;
+    height: 7em;
+    border-right: 1em solid black;
+    border-bottom: 2em solid black;
+    border-radius: 50%;
+    top: 2.5em;
+    right: -1em;
+    transform: rotate(-30deg);
 }
