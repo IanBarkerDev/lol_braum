@@ -4,11 +4,11 @@
     left: 40%;
 }
 
-/*
+
 .character {
-    transform: skewY(10deg);
+    //transform: skewY(10deg);
 }
-*/
+
 
 /* HEAD */
 .head {
@@ -157,6 +157,8 @@
 }
 
 .arm-left {
+    position: absolute;
+    background-color: #9873F9;
 
 }
 
@@ -261,44 +263,116 @@
 }
 
 /* RIGHT ARM */
-.arm-right {
+.arm-right-upper {
+    position: absolute;
+    background-color: #9873F9;
+    width: 3em;
+    height: 10em;
+    border-radius: 0 2em 2em 2em;
+    top: -.75em;
+    left: 9em;
+    transform: rotate(-40deg);
+
+}
+
+.arm-right-lower {
+    position: absolute;
+    background-color: #9873F9;
+    width: 3em;
+    height: 6em;
+    border-radius: 2em;
+    top: 5.5em;
+    left: 11.2em;
 
 }
 
 .arm-bands {
-
+    position: absolute;
+    height: 5em;
+    width: 3em;
+    top: 2em;
+    left: 0
 }
 
 .band-1 {
-
+    position: absolute;
+    height: 1em;
+    width: 3em;
+    top: 0;
+    left: 0;
+    background-color: darkblue;
 }
 
 .band-2 {
-
+    position: absolute;
+    height: 1em;
+    width: 3em;
+    top: 1.5em;
+    left: 0;
+    background-color: darkblue;
 }
 
 .hand-right {
-
+    position: absolute;
+    height: 3em;
+    width: 2.5em;
+    top: 4.5em;
+    left: .25em;
+    background-color: #9873F9;
+    border-radius: 2em;
 }
 
 .thumb-right {
-
+    position: absolute;
+    height: 1.5em;
+    width: .5em;
+    top: 1.9em;
+    left: -.13em;
+    transform: rotate(10deg);
+    background-color: #9873F9;
+    border-radius: 0 0 1em 1em;
 }
 
 .index-right {
+    position: absolute;
+    background-color: #9873F9;
+    width: .45em;
+    height: 2.5em;
+    border-radius: 0 0 1em 1em;
+    top: 2em;
+    left: .45em;
 
 }
 
 .middle-right {
-
+    position: absolute;
+    background-color: #9873F9;
+    width: .45em;
+    height: 2.7em;
+    top: 2em;
+    left: 1em;
+    border-radius: 0 0 1em 1em;
 }
 
 .ring-right {
-
+    position: absolute;
+    background-color: #9873F9;
+    width: .45em;
+    height: 2.2em;
+    border-radius: 0 0 1em 1em;
+    top: 2em;
+    left: 1.53em;
 }
 
 .pinky-right {
-
+    position: absolute;
+    height: 1.7em;
+    width: .45em;
+    top: 2em;
+    left: 2.05em;
+    //transform: rotate(-10deg);
+    background-color: #9873F9;
+    border-radius: 0 0 1em 1em;
 }
 
 /* SHIELD */
@@ -309,6 +383,7 @@
     width: 16em;
     height: 20em;
     background-color: blue;
+    border-radius: 1em 1em 6em 6em;
 }
 
 .shield-mid-upper {
