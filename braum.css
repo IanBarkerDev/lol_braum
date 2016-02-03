@@ -1,0 +1,129 @@
+.lol-character {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+.head {
+    position: relative;
+    width: 4em;
+    height: 5em;
+    background-color: lightblue;
+    border-radius: 2em 2em 2em 2em;
+}
+
+.eyebrow {
+    width: .75em;
+    height: .5em;
+    background-color: brown;
+}
+
+.eyebrow-left {
+    position: absolute;
+    top: 1em;
+    left: .75em;
+}
+
+.eyebrow-right {
+    position: absolute;
+    top: 1em;
+    right: .75em;
+}
+
+.eye {
+    height: .5em;
+    width: .5em;
+    background-color: darkblue;
+}
+
+.eye-left {
+    position: absolute;
+    top: 1.75em;
+    left: 1em;
+}
+
+.eye-right {
+    position: absolute;
+    top: 1.75em;
+    right: 1em;
+}
+
+.nose {
+    position: absolute;
+    top: 2.5em;
+    left: 1.83em;
+    width: .25em;
+    height: .25em;
+    background-color: black;
+}
+
+.mustache {
+    position: absolute;
+    width: 7em;
+    height: 2em;
+    bottom: 1.5em;
+    left: -1.5em;
+}
+
+.mustache-curl-left {
+    position: absolute;
+    border-left: .5em solid transparent;
+    border-right: .5em solid transparent;
+    border-bottom: .5em solid brown;
+    width: 0;
+    height: 0;
+    top: 1.63em;
+    left: 1em;
+    transform: rotate(190deg);
+}
+
+.mustache-bar-left {
+    background-color: brown;
+    position: absolute;
+    top: 1.61em;
+    left: 1.5em;
+    height: .5em;
+    width: 1.75em;
+    transform: rotate(170deg);
+
+}
+
+.mustache-middle {
+    background-color: brown;
+    position: absolute;
+    bottom: 0;
+    left: 2.75em;
+    width: 1.5em;
+    height: .5em;
+}
+
+.mustache-bar-right {
+    background-color: brown;
+    position: absolute;
+    top: 1.61em;
+    right: 1.5em;
+    height: .5em;
+    width: 1.75em;
+    transform: rotate(10deg);
+}
+
+.mustache-curl-right {
+    position: absolute;
+    border-left: .5em solid transparent;
+    border-right: .5em solid transparent;
+    border-bottom: .5em solid brown;
+    width: 0;
+    height: 0;
+    top: 1.63em;
+    right: 1em;
+    transform: rotate(170deg);
+}
+
+.mouth {
+    position: absolute;
+    width: 1em;
+    height: .5em;
+    bottom: .75em;
+    left: 1.5em;
+    background-color: white;
+}
