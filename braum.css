@@ -196,6 +196,49 @@
     left: 0;
 }
 
+.tattoo-1 {
+    position: absolute;
+    width: 2em;
+    height: 1.5em;
+    border-left: .5em solid lightblue;
+    border-right: .5em solid lightblue;
+    border-bottom: .5em solid lightblue;
+    left: 5em;
+    top: 1em;
+    z-index: 5;
+}
+
+.tattoo-2 {
+    position: absolute;
+    width: 2em;
+    height: 3em;
+    border-left: .5em solid lightblue;
+    border-top: .5em solid lightblue;
+    left: 5em;
+    top: 4em;
+}
+
+.tattoo-3 {
+    position: absolute;
+    width: .5em;
+    height: 2.75em;
+    transform: rotate(-45deg);
+    top: 3.8em;
+    left: 8.05em;
+    background-color: lightblue;
+}
+
+.tattoo-4 {
+    position: absolute;
+    width: 2.5em;
+    height: 5em;
+    border-top: .5em solid lightblue;
+    border-right: .5em solid lightblue;
+    border-bottom: .5em solid lightblue;
+    left: .75em;
+    top: 2em;
+}
+
 /* BELT */
 .belt-left {
     width: 1.5em;
@@ -331,6 +374,15 @@
 }
 
 .band-2 {
+    position: absolute;
+    height: 1em;
+    width: 3em;
+    top: 1em;
+    left: 0;
+    background-color: gold;
+}
+
+.band-3 {
     position: absolute;
     height: 1em;
     width: 3em;
