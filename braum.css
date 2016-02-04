@@ -159,6 +159,33 @@
 .arm-left {
     position: absolute;
     background-color: #9873F9;
+    width: 3em;
+    height: 10em;
+    top: -4.2em;
+    left: -4.5em;
+    transform: rotate(100deg);
+    border-radius: 1em;
+}
+
+.hand-left-1 {
+    position: absolute;
+    background-color: #9873F9;
+    width: 3em;
+    height: 4em;
+    transform: rotate(85deg);
+    top: -1.8em;
+    left: -9.8em;
+    border-radius: 1em;
+}
+
+.hand-left-2 {
+    position: absolute;
+    background-color: #9873F9;
+    width: 2.5em;
+    height: 1em;
+    border-radius: 0 0 1em 1em;
+    z-index: 5;
+    left: -10.3em;
 
 }
 
@@ -428,4 +455,12 @@
     top: 2.5em;
     right: -1em;
     transform: rotate(-30deg);
+}
+
+.leg-left {
+
+}
+
+.leg-right {
+
 }
