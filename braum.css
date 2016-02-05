@@ -259,6 +259,7 @@
     background-color: darkblue;
     border: .5em solid gold;
     border-radius: 5em;
+    z-index: 2;
 }
 
 .belt-right {
@@ -463,6 +464,7 @@
     height: 20em;
     background-color: blue;
     border-radius: 1em 1em 6em 6em;
+    z-index: 3;
 }
 
 .shield-mid-upper {
@@ -510,9 +512,45 @@
 }
 
 .leg-left {
-
+    position: absolute;
+    top: 18em;
+    left: -2.5em;
+    width: 4em;
+    height: 15em;
+    background-color: #9873F9;
+    transform: rotate(10deg);
+    z-index: 1;
 }
 
 .leg-right {
+    position: absolute;
+    top: 18em;
+    left: 2.5em;
+    width: 4em;
+    height: 15em;
+    background-color: #9873F9;
+    transform: rotate(-10deg);
+    z-index: 1;
+}
 
+.foot-left {
+    position: absolute;
+    width: 6em;
+    height: 2.5em;
+    background-color: #9873F9;
+    top: 15em;
+    left: -2em;
+    border-radius: 5em 0 0 0;
+    transform: rotate(-10deg);
+}
+
+.foot-right {
+    position: absolute;
+    width: 6em;
+    height: 2.5em;
+    background-color: #9873F9;
+    top: 15em;
+    left: 0em;
+    border-radius: 0 5em 0 0;
+    transform: rotate(10deg);
 }
